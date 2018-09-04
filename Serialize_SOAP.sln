@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp4", "ConsoleApp4\ConsoleApp4.csproj", "{8D6A0C55-3B77-4317-AB45-E43A8AE5B86C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialize_SOAP", "ConsoleApp4\Serialize_SOAP.csproj", "{8D6A0C55-3B77-4317-AB45-E43A8AE5B86C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLib", "ClassLib\ClassLib.csproj", "{A9B76D02-A8F9-4005-B7EA-8F97B3991E86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8D6A0C55-3B77-4317-AB45-E43A8AE5B86C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D6A0C55-3B77-4317-AB45-E43A8AE5B86C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D6A0C55-3B77-4317-AB45-E43A8AE5B86C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B76D02-A8F9-4005-B7EA-8F97B3991E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B76D02-A8F9-4005-B7EA-8F97B3991E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B76D02-A8F9-4005-B7EA-8F97B3991E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B76D02-A8F9-4005-B7EA-8F97B3991E86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
