@@ -4,7 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ClassLib;
-
+using Newtonsoft.Json.Serialization;
+using System.Runtime.Serialization.Json;
+using System.Runtime.Serialization;
+using System.IO;
 
 namespace ConsoleApp4
 {
@@ -19,7 +22,16 @@ namespace ConsoleApp4
             //    Console.WriteLine("Name - {0} Phone - {1}", a.Name, a.Phone);
             //}
 
-            EventService.DoEvent(EventPCLog.ON, ClassLib.PC("HP", "S123!", "ffx800", 1500));
+            SerializeJSON Js = new SerializeJSON(@"C:\Users\КимС\Desktop\MOCK.csv");
+            Js.SerializationFile();
+             foreach (Person p in Js.DeserializeFile())
+                {
+                    Console.WriteLine("Имя: {0} --- Mail: {1}", p.Name, p.Email);
+                }
+            
+
+
+            // EventService.DoEvent(EventPCLog.ON, ClassLib.PC("HP", "S123!", "ffx800", 1500));
         }
     }
 }
